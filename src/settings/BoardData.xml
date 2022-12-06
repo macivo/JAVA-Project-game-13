@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<onePaneTiles>
+    <listToSync>
+        <Tile tileIndex="0">
+            <col>0</col>
+            <rol>0</rol>
+            <value>2</value>
+        </Tile>
+        <Tile tileIndex="1">
+            <col>0</col>
+            <rol>1</rol>
+            <value>4</value>
+        </Tile>
+        <Tile tileIndex="2">
+            <col>0</col>
+            <rol>2</rol>
+            <value>2</value>
+        </Tile>
+        <Tile tileIndex="3">
+            <col>0</col>
+            <rol>3</rol>
+            <value>5</value>
+        </Tile>
+        <Tile tileIndex="4">
+            <col>0</col>
+            <rol>4</rol>
+            <value>1</value>
+        </Tile>
+        <Tile tileIndex="5">
+            <col>1</col>
+            <rol>0</rol>
+            <value>3</value>
+        </Tile>
+        <Tile tileIndex="6">
+            <col>1</col>
+            <rol>1</rol>
+            <value>1</value>
+        </Tile>
+        <Tile tileIndex="7">
+            <col>1</col>
+            <rol>2</rol>
+            <value>3</value>
+        </Tile>
+        <Tile tileIndex="8">
+            <col>1</col>
+            <rol>3</rol>
+            <value>4</value>
+        </Tile>
+        <Tile tileIndex="9">
+            <col>1</col>
+            <rol>4</rol>
+            <value>2</value>
+        </Tile>
+        <Tile tileIndex="10">
+            <col>2</col>
+            <rol>0</rol>
+            <value>1</value>
+        </Tile>
+        <Tile tileIndex="11">
+            <col>2</col>
+            <rol>1</rol>
+            <value>3</value>
+        </Tile>
+        <Tile tileIndex="12">
+            <col>2</col>
+            <rol>2</rol>
+            <value>2</value>
+        </Tile>
+        <Tile tileIndex="13">
+            <col>2</col>
+            <rol>3</rol>
+            <value>3</value>
+        </Tile>
+        <Tile tileIndex="14">
+            <col>2</col>
+            <rol>4</rol>
+            <value>5</value>
+        </Tile>
+        <Tile tileIndex="15">
+            <col>3</col>
+            <rol>0</rol>
+            <value>1</value>
+        </Tile>
+        <Tile tileIndex="16">
+            <col>3</col>
+            <rol>1</rol>
+            <value>2</value>
+        </Tile>
+        <Tile tileIndex="17">
+            <col>3</col>
+            <rol>2</rol>
+            <value>4</value>
+        </Tile>
+        <Tile tileIndex="18">
+            <col>3</col>
+            <rol>3</rol>
+            <value>1</value>
+        </Tile>
+        <Tile tileIndex="19">
+            <col>3</col>
+            <rol>4</rol>
+            <value>3</value>
+        </Tile>
+        <Tile tileIndex="20">
+            <col>4</col>
+            <rol>0</rol>
+            <value>1</value>
+        </Tile>
+        <Tile tileIndex="21">
+            <col>4</col>
+            <rol>1</rol>
+            <value>4</value>
+        </Tile>
+        <Tile tileIndex="22">
+            <col>4</col>
+            <rol>2</rol>
+            <value>1</value>
+        </Tile>
+        <Tile tileIndex="23">
+            <col>4</col>
+            <rol>3</rol>
+            <value>5</value>
+        </Tile>
+        <Tile tileIndex="24">
+            <col>4</col>
+            <rol>4</rol>
+            <value>4</value>
+        </Tile>
+    </listToSync>
+</onePaneTiles>

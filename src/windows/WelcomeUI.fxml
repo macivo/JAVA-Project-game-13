@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/10" xmlns:fx="http://javafx.com/fxml/1" fx:controller="windows.WelcomeController">
+         
+         <center>
+         <Label fx:id="labelNextLevel" style="-fx-font-size: 90.0;">
+         </Label>
+         </center>
+         
+         <bottom>
+         	<VBox alignment="CENTER" prefHeight="200.0" prefWidth="300.0">
+         	
+	         	<children>		
+	  	
+			    <Button alignment="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#buttonPlay" style="-fx-font-size: 25; -fx-text-fill: #440235; -fx-padding: 0; -fx-pref-width: 350; -fx-border-color: blue;" text="Play" />
+		
+	     		<Button alignment="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#buttonSetting" style="-fx-font-size: 25; -fx-text-fill: #440235; -fx-padding: 0; -fx-pref-width: 350; -fx-border-color: blue;" text="Setting" textAlignment="CENTER" />
+	     	
+	     		<Button alignment="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#buttonStatistic" style="-fx-font-size: 25; -fx-text-fill: #440235; -fx-padding: 0; -fx-pref-width: 350; -fx-border-color: blue;" text="Statistic" textAlignment="CENTER" />
+	     		
+	     		<Button alignment="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#buttonAIMode" style="-fx-font-size: 25; -fx-text-fill: #440235; -fx-padding: 0; -fx-pref-width: 350; -fx-border-color: blue;" text="Computer Playing Mode" textAlignment="CENTER" />
+	
+	 			</children>
+	 		</VBox>
+         </bottom>
+   <top>
+      <BorderPane BorderPane.alignment="CENTER">
+         <left>
+  				<Label fx:id="labelLevel">
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/win.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Label>
+         </left>
+         <right>
+  				<Label fx:id="labelStar">
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/star.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Label>
+         </right>
+      </BorderPane>
+   </top>
+</BorderPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statisticList>
+    <stateList>
+                 <stateList>
+            <topLevel>5</topLevel>
+            <date>0</date>
+            <move>0</move>
+        </stateList>
+               <stateList>
+            <topLevel>4</topLevel>
+            <date>0</date>
+            <move>0</move>
+        </stateList>
+        <stateList>
+            <topLevel>3</topLevel>
+            <date>0</date>
+            <move>0</move>
+        </stateList>
+                <stateList>
+            <topLevel>2</topLevel>
+            <date>0</date>
+            <move>0</move>
+        </stateList>
+        <stateList>
+            <topLevel>1</topLevel>
+            <date>0</date>
+            <move>0</move>
+        </stateList>
+    </stateList>  
+</statisticList>

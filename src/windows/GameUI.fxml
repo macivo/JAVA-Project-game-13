@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/10" xmlns:fx="http://javafx.com/fxml/1" fx:controller="windows.GameController">
+   <top>
+      <BorderPane BorderPane.alignment="CENTER">
+         <center>
+		                     <Label fx:id="labelNextLevel" alignment="BOTTOM_LEFT" BorderPane.alignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/win.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Label>
+         </center>
+         <right>
+		        			 <Label fx:id="labelStar" alignment="BOTTOM_LEFT" BorderPane.alignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/star.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Label>
+         </right>
+         <left>
+            <HBox alignment="BOTTOM_CENTER" BorderPane.alignment="CENTER">
+               <children>
+                
+                			<Button defaultButton="true" mnemonicParsing="false" onAction="#gameMenu" style="-fx-background-color: #440235; -fx-text-fill: #eef102; -fx-padding: 0; -fx-max-height: 15; -fx-pref-width: 30;-fx-font-weight: bold;" text="II" textAlignment="CENTER" />
+              
+                     		<Label fx:id="labelLevel" alignment="CENTER_LEFT" />
+               </children>
+            </HBox>
+         </left>
+
+      </BorderPane>
+   </top>
+   <bottom>
+      <StackPane fx:id="bottomOption" alignment="CENTER">
+         <children>
+	               <HBox fx:id="hBoxGameOption" alignment="CENTER" prefHeight="100.0" spacing="100.0" BorderPane.alignment="CENTER">
+	         			<children>
+	           				 <Button fx:id="bomber" mnemonicParsing="false" onAction="#buttonBomber" prefHeight="100.0" prefWidth="100.0" styleClass="fill-btnBomber" />
+	            			<Button fx:id="back" mnemonicParsing="false" onAction="#buttonBack" prefHeight="100.0" prefWidth="100.0" styleClass="fill-btnBack" />       			
+	        			 </children>
+	    		  </HBox>
+	    		  <VBox fx:id="vBoxAIOption" alignment="CENTER">
+
+	    		  			<children>
+	    		  		           <Label contentDisplay="CENTER" text="Computer playing mode">
+					               <font>
+					                  <Font size="24.0" />
+					               </font>
+					               <opaqueInsets>
+					                  <Insets />
+					               </opaqueInsets>
+					               <padding>
+					                  <Insets bottom="10.0" />
+					               </padding>
+					           		 </Label>
+					            
+	    		              <Button mnemonicParsing="false" onAction="#random" prefWidth="150.0" text="random">
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin></Button>
+           						 <Button mnemonicParsing="false" onAction="#greedy" prefWidth="150.0" text="greedy">
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin></Button>
+            				</children>
+	    		  </VBox>
+         </children>
+      </StackPane>
+   </bottom>
+   <center>
+      <HBox alignment="CENTER" BorderPane.alignment="CENTER">
+         
+           <StackPane fx:id="gamePane" alignment="CENTER">
+               <children>
+                     <Pane fx:id="gameBoard" />
+               </children>
+           </StackPane>
+      </HBox>
+   </center>
+
+</BorderPane>

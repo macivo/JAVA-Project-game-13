@@ -1,0 +1,39 @@
+.label {
+-fx-font-weight: bold;
+-fx-font-size: 20.0;
+-fx-text-fill: white;
+}
+
+.button {
+-fx-font-size: 20px;
+}
+
+.button:hover {
+-fx-background-color: linear-gradient(#ffe68b, #f6a430);
+}
+
+.button:pressed {
+-fx-background-color: linear-gradient(#ffd65b, #a68400);
+}
+
+.fill-btnBomber {
+-fx-background-image: url("../icons/debt.png");
+-fx-background-size: 114px;
+-fx-background-color: inherit;
+-fx-opacity: inherit;
+-fx-border: none;
+}
+
+.fill-btnBack {
+-fx-background-image: url("../icons/return.png");
+-fx-background-size: 130px;
+-fx-background-color: inherit;
+-fx-opacity: inherit;
+-fx-border: none;
+}
+
+.root{
+-fx-background-color: #440235;
+}
+
+
